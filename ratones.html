@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reparación de ratones</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <img src="logo.jpg" alt="Logo TechFix" class="logo">
+    <h1>Solicitud de reparación de ratones</h1>
+  </header>
+
+  <div class="contenedor">
+    <form action="#" method="post">
+      <label for="nombre">Nombre completo:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="marca">Marca:</label>
+      <input type="text" id="marca" name="marca" required>
+
+      <label for="tipo">Tipo de mouse:</label>
+      <select id="tipo" name="tipo">
+        <option>Inalámbrico</option>
+        <option>Con cable</option>
+        <option>Gaming</option>
+        <option>Oficina</option>
+      </select>
+
+      <label for="problema">Describa el problema:</label>
+      <textarea id="problema" name="problema" rows="4" placeholder="Ejemplo: No responde, clics erráticos, no prende la luz, cable dañado..." required></textarea>
+
+      <label for="fecha">Fecha estimada de entrega:</label>
+      <input type="date" id="fecha" name="fecha">
+
+      <input type="submit" value="Enviar solicitud">
+    </form>
+  </div>
+
+  <a href="index.html" class="volver">← Volver al inicio</a>
+
+  <footer>
+    © 2025 - Servicio Técnico Informático 
+  </footer>
+
+</body>
+</html>

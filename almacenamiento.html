@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reparación de dispositivos de almacenamiento</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <img src="logo.jpg" alt="Logo TechFix" class="logo">
+    <h1>Solicitud de revisión de almacenamiento</h1>
+  </header>
+
+  <div class="contenedor">
+    <form action="#" method="post">
+      <label for="nombre">Nombre completo:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="tipo">Tipo de dispositivo:</label>
+      <select id="tipo" name="tipo" required>
+        <option>Disco duro (HDD)</option>
+        <option>Unidad SSD</option>
+        <option>Pendrive</option>
+        <option>Tarjeta SD</option>
+      </select>
+
+      <label for="capacidad">Capacidad (GB o TB):</label>
+      <input type="text" id="capacidad" name="capacidad">
+
+      <label for="marca">Marca:</label>
+      <input type="text" id="marca" name="marca">
+
+      <label for="problema">Problema detectado:</label>
+      <textarea id="problema" name="problema" rows="4" placeholder="Ejemplo: No se detecta, pérdida de archivos, ruido extraño, velocidad baja..."></textarea>
+
+      <label for="servicio">Servicio requerido:</label>
+      <select id="servicio" name="servicio">
+        <option>Reparación / recuperación de datos</option>
+        <option>Diagnóstico y reemplazo</option>
+        <option>Formateo y reinstalación</option>
+      </select>
+
+      <input type="submit" value="Enviar solicitud">
+    </form>
+  </div>
+
+  <a href="index.html" class="volver">← Volver al inicio</a>
+
+  <footer>
+    © 2025 - Servicio Técnico Informático 
+  </footer>
+
+</body>
+</html>

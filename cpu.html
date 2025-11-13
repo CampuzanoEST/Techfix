@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reparación de CPU</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <img src="logo.jpg" alt="Logo TechFix" class="logo">
+    <h1>Solicitud de reparación de CPU o PC de escritorio</h1>
+  </header>
+
+  <div class="contenedor">
+    <form action="#" method="post">
+      <label for="nombre">Nombre completo:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono" required>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="marca">Marca del CPU o gabinete:</label>
+      <input type="text" id="marca" name="marca">
+
+      <label for="sistema">Sistema operativo:</label>
+      <select id="sistema" name="sistema">
+        <option>Windows</option>
+        <option>Linux</option>
+        <option>MacOS</option>
+      </select>
+
+      <label for="problema">Describa el problema:</label>
+      <textarea id="problema" name="problema" rows="5" placeholder="Ejemplo: No enciende, se apaga solo, lentitud, virus, formateo, limpieza interna..." required></textarea>
+
+      <label for="servicio">Servicio solicitado:</label>
+      <select id="servicio" name="servicio" required>
+        <option>Revisión general</option>
+        <option>Reparación de hardware</option>
+        <option>Formateo e instalación de sistema</option>
+        <option>Mantenimiento y limpieza</option>
+      </select>
+
+      <label for="fecha">Fecha deseada:</label>
+      <input type="date" id="fecha" name="fecha">
+
+      <input type="submit" value="Enviar solicitud">
+    </form>
+  </div>
+
+  <a href="index.html" class="volver">← Volver al inicio</a>
+
+  <footer>
+    © 2025 - Servicio Técnico Informático 
+  </footer>
+
+</body>
+</html>
